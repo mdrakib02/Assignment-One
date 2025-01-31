@@ -1,0 +1,56 @@
+.exo-Font-Family {
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+nav {
+  list-style: none;
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+nav .nameLogo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+nav .btn-primary button {
+  border: 1px green solid;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: green;
+  font-weight: 600;
+}
+
+/* ============Hero Sections============== */
+
+.hero-section{
+  width: 1440px;
+  margin: auto;
+
+  
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(223, 231, 223);
+  padding: 60px;
+  border-radius: 12px;
+}
+
+.maintitle{
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(46, 79, 46);
+}
+.subTitle{
+  font-size: 60px ;
+  font-weight: 900;
+  color: green;
+}
