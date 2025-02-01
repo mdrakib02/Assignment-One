@@ -4,8 +4,6 @@
   font-style: normal;
 }
 
-
-
 nav {
   list-style: none;
   width: 1440px;
@@ -28,14 +26,14 @@ nav .btn-primary button {
 }
 
 /* ============Hero Sections============== */
-
-.hero-section{
+.Container {
+  padding-top: 70px;
+}
+.hero-section {
   width: 1440px;
   margin: auto;
-
-  
 }
-.hero{
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,13 +42,125 @@ nav .btn-primary button {
   border-radius: 12px;
 }
 
-.maintitle{
+.maintitle {
   font-size: 36px;
   font-weight: 600;
   color: rgb(46, 79, 46);
 }
-.subTitle{
-  font-size: 60px ;
+.subTitle {
+  font-size: 60px;
   font-weight: 900;
   color: green;
+}
+
+/* =========== Main Sections============ */
+
+main {
+  padding: 40px;
+  width: 1440px;
+  margin: auto;
+}
+.h2Tag {
+  font: 48px;
+  font-weight: 600;
+}
+.Card-Content {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 270px;
+  height: auto;
+  padding: 12px;
+  background-color: rgb(226, 230, 201);
+  border-radius: 8px;
+}
+.card-2 {
+  width: 370px;
+  height: auto;
+  padding: 22px;
+  background-color: rgb(230, 201, 226);
+  border-radius: 8px;
+}
+.card-3 {
+  width: 370px;
+  height: auto;
+  padding: 22px;
+  background-color: rgb(255, 235, 186);
+  border-radius: 8px;
+}
+.card-4 {
+  width: 370px;
+  height: auto;
+  padding: 22px;
+  background-color: rgb(186, 200, 255);
+  border-radius: 8px;
+}
+
+.btn-secondary {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgb(148, 214, 148);
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+}
+.Second-card-sections {
+  padding-top: 40px;
+}
+
+.Younus-Sections {
+  padding: 12px;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 8px;
+  box-shadow: 2px 5px rgb(214, 214, 214);
+}
+.younus-Content {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 8px;
+}
+
+.container {
+  padding-top: 70px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.table-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #c2e0c6;
+  font-weight: bold;
+}
+
+td select {
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #d5f0d8;
+  cursor: pointer;
 }
