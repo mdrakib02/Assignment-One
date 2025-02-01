@@ -145,7 +145,8 @@ table {
   margin-top: 10px;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: left;
   border: 1px solid #ddd;
@@ -163,4 +164,257 @@ td select {
   border: 1px solid #ccc;
   background-color: #d5f0d8;
   cursor: pointer;
+}
+
+/* ================================== */
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.news-card {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 40%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.news-content {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.news-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  background-color: #008000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  background-color: #005700;
+}
+
+/* ======================== */
+
+.news-card-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.news-card-3 {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.All-Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ============================== */
+
+.container {
+  padding-top: 70px;
+}
+
+.intro {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.donation-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.donation-btn {
+  padding: 30px 20px;
+  border: none;
+  font-size: 46px;
+  font-weight: bold;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.donation-btn.active {
+  background-color: #cce7cc;
+}
+
+.donation-input {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #d6d3d3;
+  margin-bottom: 15px;
+  background-color: #f3f5f3;
+}
+.donate-content {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.donate-now {
+  background-color: #008000;
+  color: white;
+  width: 120px;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.donate-now:hover {
+  background-color: #005700;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  background-color: #d9ead3;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.newsletter-box {
+  background-color: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.newsletter-box h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.newsletter-text {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-form input {
+  padding: 20px;
+  width: 70%;
+  border: 1px solid #ccc;
+}
+
+.subscribe-btn {
+  background-color: #006400;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.subscribe-btn:hover {
+  background-color: #004d00;
+}
+
+.spam-text {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* =========Footer==== */
+
+footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 45px;
+  width: 1440px;
+  margin: auto;
+}
+hr{
+  color: #006400;
+  width: 100%;
 }
